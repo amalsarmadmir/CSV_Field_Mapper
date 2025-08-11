@@ -11,6 +11,9 @@ import * as React from 'react';
 import { DropzoneOptions, useDropzone } from 'react-dropzone';
 import { twMerge } from 'tailwind-merge';
 
+//This file was taken from a public repo as an asset for drag and drop feature
+//https://github.com/perfectbase/edgestore-tutorial refrenced
+
 const variants = {
   base: 'relative rounded-md p-4 w-96 flex justify-center items-center flex-col cursor-pointer border border-dashed border-gray-300 transition-colors duration-200 ease-in-out',
   active: 'border-2',
